@@ -1,0 +1,624 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+
+body{
+    color: black;
+    background: #f2f2f2;
+}
+
+
+.container {
+    padding: 0 20px;
+    margin-left: 10px;
+    margin-top: 160px;
+}
+
+/* errormessages */
+.errmsg{
+    color: #f2f2f2;
+    width: 20%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #ff4d4d;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* headding */
+
+.title{
+    margin-top: -60px;
+    background:  white;
+    padding: 7px;
+    text-align: center; 
+}
+.title b{
+    font-size: 25px;
+    margin-left: -100px;
+    color: #404040;
+}
+.routing {
+    float: left;
+    color: #63b4cf;
+    margin-top: 5px;
+}
+
+
+.box {
+    margin-bottom: 20px;
+}
+/* form */
+.user-details{
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+/* inputboxes */
+input[type=text],[type=email],[type=date]{
+    display: block;
+    width:300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+    
+}  
+
+/* role */
+select#inputRole {
+    display: block;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    width: 300px;
+}
+/* imageInput */
+input[type=file]{
+    display: block;
+    margin-left: -140px;
+   
+}
+/* edit */
+#addNew2 {
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: #d9d9d9;
+    color: black;
+    border-radius: 4px;
+    border: none;
+}
+#addNew2:hover{
+    opacity: 0.7;
+}
+
+/* buttons */
+.button {
+    display: inline-flex;
+    margin-left: 280px;
+    margin-top: 80px;
+}
+/* update button */
+#submit{
+    background: #555;
+    color: #fff;
+    padding:10PX 15px; 
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-left: 300px;
+}
+#submit:hover{
+    opacity: 0.7;
+}
+
+/* back button */
+.back {
+    background: blue;
+    color: #fff;
+    padding:9PX 22px; 
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-left: 200px
+}
+.back:hover{
+    opacity: 0.5;
+}
+
+/* view services */
+#addNew3 {
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: #d9d9d9;
+    color: black;
+    border-radius: 4px;
+    border: none;
+}
+#addNew3:hover{
+    opacity: 0.7;
+}
+
+
+
+/* first row */
+.input_box_first {
+    display: inline-flex;
+}
+
+/* firstName */
+.firstLeft {
+    display: inline-flex;
+}
+.inputColumnFirstLeft {
+    margin-left: 225px;
+}
+
+/* lastName */
+.firstRight {
+    display: inline-flex;
+    margin-left: 50px;
+}
+.inputColumnFirstRight {
+    margin-left: 175px;
+}
+
+
+
+/* second row */
+.input_box_second {
+    display: inline-flex;
+}
+
+/* phoneNumber */
+.secondLeft {
+    display: inline-flex;
+}
+.inputColumnSecondLeft {
+    margin-left: 195px;
+}
+/* email */
+.secondRight {
+    display: inline-flex;
+    margin-left:52px;
+}
+.inputColumnSecondRight {
+    margin-left: 212px;
+}
+
+
+/* third row */
+.input_box_third {
+    display: inline-flex;
+}
+
+/* address */
+.thirdLeft {
+    display: inline-flex;
+}
+.inputColumnThirdLeft {
+    margin-left: 243px;
+  
+}
+
+/* appointment data */
+.thirdRight {
+    display: inline-flex;
+    margin-left: 30px;
+}
+.labelColumnThirdRight {
+    margin-left: 23px;
+}
+.inputColumnThirdRight {
+    margin-left: 124px;
+}
+
+
+/* fourth row */
+.input_box_forth {
+    display: inline-flex;
+}
+
+/* service */
+.forthLeft {
+    display: inline-flex;
+}
+.inputColumnForthLeft {
+    margin-left: 241px;
+}
+
+/* stylish */
+.forthRight {
+    display: inline-flex;
+    margin-left: -50px;
+}
+.labelColumnForthRight {
+    margin-left: 104px;
+}
+.inputColumnForthRight {
+    margin-left: 200px;
+}
+
+
+
+/* fifth row */
+.input_box_fifth {
+    display: inline-flex;
+}
+
+/* update */
+.fifthLeft {
+    display: inline-flex;
+    margin-left: 1px;
+}
+.inputColumnFifthLeft {
+    margin-left: 248px; 
+}
+
+
+
+/* mobiletitle */
+
+.mobiletitle{
+    margin-top: -60px;
+    background:  white;
+    padding: 7px;
+    text-align: center; 
+    display: none;
+
+}
+.mobiletitle b{
+    font-size: 25px;
+    margin-left: -10px;
+    color: #404040;
+    display: none;
+}
+.mobilerouting {
+    float: left;
+    color: #63b4cf;
+    margin-top: 10px;
+    display: none;
+
+}
+
+/* responsiveness */
+
+@media screen and (max-width:1500px) {
+
+    .user-details {
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:1410px) {
+    .user-details {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .user-details {
+        margin-left: 170px;
+    }
+    .inputColumnFirstLeft {
+        margin-left: 100px;
+    }.inputColumnSecondLeft {
+        margin-left: 70px;
+    }.inputColumnThirdLeft {
+        margin-left: 119px;
+    }.inputColumnForthLeft {
+        margin-left: 118px;
+    }.inputColumnFifthLeft {
+        margin-left: 126px;
+    }
+
+    .inputColumnFirstRight {
+        margin-left: 70px;
+    }.inputColumnSecondRight {
+        margin-left: 106px;
+    }.inputColumnThirdRight {
+        margin-left: 18px;
+    }.inputColumnForthRight {
+        margin-left: 91px;
+    }
+    .button {
+        margin-left: 130px;
+    }
+}
+@media screen and (max-width:1380px) {
+    .user-details {
+        margin-left: 160px;
+    }
+}
+@media screen and (max-width:1340px) {
+    .user-details {
+        margin-left: 160px;
+    }
+}
+@media screen and (max-width:1300px) {
+    .user-details {
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width:1250px) {
+    .user-details {
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width:1225px) {
+    .user-details {
+        margin-left: 90px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .user-details {
+        margin-left: 300px;
+    }
+    .input_box_first {
+        display: block;
+    }
+    .firstRight {
+        margin-left: 0px;
+    }
+    .inputColumnFirstLeft {
+        margin-bottom: 20px;
+        margin-left: 120px;
+    }
+    .inputColumnFirstRight{
+        margin-left: 120px;
+    }
+
+
+    .input_box_second{
+        display: block;
+    }
+    .secondRight {
+        margin-left: 0px;
+    }
+    .inputColumnSecondLeft {
+        margin-bottom: 20px;
+    }
+    .inputColumnSecondLeft{
+        margin-left: 90px;
+    }
+    .inputColumnSecondRight{
+        margin-left: 158px;
+    }
+
+
+    .input_box_third{
+        display: block;
+    }
+    .thirdRight {
+        margin-left: -22px;
+    }
+    .inputColumnThirdLeft {
+        margin-bottom: 20px;
+        margin-left: 140px;
+    }
+    .inputColumnThirdRight {
+        margin-left: 70px;
+    }
+
+
+    .input_box_forth{
+        display: block;
+    }
+    .forthRight {
+        margin-left: -105px;
+    }
+    .inputColumnForthLeft {
+        margin-bottom: 20px;
+        margin-left: 135px;
+    }
+    .inputColumnForthRight {
+        margin-left: 147px;
+    }
+    
+
+    .input_box_fifth{
+        display: block;
+    }
+    .fifthRight {
+        margin-left: 0px;
+    }
+    .inputColumnFifthLeft {
+        margin-left: 145px;
+    }
+  
+
+    .box {
+        line-height: 30px;
+    }
+
+    .button {
+        margin-bottom: 10px;
+        margin-left: 110px;
+    }
+}
+@media screen and (max-width:1150px) {
+    .user-details {
+        margin-left: 300px;
+    }
+    .button {
+        margin-left: 110px;
+    }
+}@media screen and (max-width:1100px) {
+    .user-details {
+        margin-left: 250px;
+    }
+    .button {
+        margin-left: 110px;
+    }
+}
+@media screen and (max-width:1050px) {
+    .user-details {
+        margin-left: 250px;
+    }
+    .button {
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .user-details {
+        margin-left: 210px;
+    }
+    .button {
+        margin-left: 0px;
+    }
+}@media screen and (max-width:950px) {
+    .user-details {
+        margin-left: 160px;
+    }
+    .button {
+        margin-left: -10px;
+    }
+}
+@media screen and (max-width:950px) {
+    .user-details {
+        margin-left: 160px;
+    }
+    .button {
+        margin-left: -10px;
+    }
+}@media screen and (max-width:900px) {
+    .user-details {
+        margin-left: 160px;
+    }
+    .button {
+        margin-left: -10px;
+    }
+}@media screen and (max-width:850px) {
+    .user-details {
+        margin-left: 140px;
+    }
+    .button {
+        margin-left: -100px;
+    }
+}
+@media screen and (max-width:800px) {
+    .user-details {
+        margin-left: 120px;
+    }
+    .button {
+        margin-left: -130px;
+    }
+}
+
+
+@media screen and (max-width:750px) {
+    .user-details {
+        margin-left: 90px;
+    }
+
+    .title {
+        display: none;
+    }
+    .title b {
+        display: none;
+    }
+    .mobiletitle {
+        display: block;
+    }
+    .mobiletitle b {
+        display: block;
+    }
+    .mobilerouting {
+        display: block;
+    }
+
+}
+@media screen and (max-width:700px) {
+    .user-details {
+        margin-left: 60px;
+    }
+    .button {
+        margin-left: -140px;
+    }
+}
+@media screen and (max-width:650px) {
+
+    .user-details {
+        margin-left: 80px;
+    }
+    .inputColumnFirstLeft {
+        margin-left: 75px;
+    }.inputColumnSecondLeft {
+        margin-left: 46px;
+     }.inputColumnThirdLeft {
+        margin-left: 96px;
+    }.inputColumnForthLeft {
+        margin-left: 95px;
+    }.inputColumnFifthLeft {
+        margin-left: 105px;
+    }
+
+    .inputColumnFirstRight {
+        margin-left: 75px;
+    }.inputColumnSecondRight {
+        margin-left: 114px;
+    }.inputColumnThirdRight {
+        margin-left: 27px;
+    }.inputColumnForthRight {
+        margin-left: 110px;
+    }
+    .button {
+        margin-left: -150px;
+    }
+
+
+}
+@media screen and (max-width:625px) {
+    .user-details {
+        margin-left: 60px;
+    }
+
+}
+@media screen and (max-width:600px) {
+    .user-details {
+        margin-left: 45px;
+    }
+
+}
+@media screen and (max-width:580px) {
+    .user-details {
+        margin-left: 35px;
+    }
+    .button {
+        margin-left: -180px;
+    }
+}
+@media screen and (max-width:560px) {
+    .user-details {
+        margin-left: 23px;
+    }
+    .button {
+        margin-left: -200px;
+    }
+}
+@media screen and (max-width:550px) {
+    .user-details {
+        margin-left: 14px;
+    }
+    .button {
+        margin-left: -200px;
+    }
+}
+
+@media screen and (max-width:545px) {
+    .user-details {
+        margin-left: 3px;
+    }
+    .button {
+        margin-left: -220px;
+    }
+}

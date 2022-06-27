@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: black;
+    background: #f2f2f2;
+}
+
+
+.container {
+    padding: 0 20px;
+    margin-left: 10px;
+    margin-top: 160px;
+}
+/* headding */
+
+.title{
+    margin-top: -60px;
+    background:  white;
+    padding: 7px;
+    text-align: center; 
+}
+.title b{
+    font-size: 25px;
+    margin-left: -100px;
+    color: #404040;
+}
+.routing {
+    float: left;
+    color: #63b4cf;
+    margin-top: 5px;
+}
+
+
+
+.both {
+    margin: 20px 100px;
+    display: inline-flex;
+}
+
+.left {
+    margin-top: 50px;
+    height: 420px;
+    
+}
+
+.left img {
+    border-radius: 2px;
+    height: 250px;
+    width: 180px;
+}
+
+.name1 {
+    font-size: 30px;
+    margin-top: 40px;
+    /* margin-left: 100px; */
+}
+
+.role {
+    font-size: 20px;
+}
+
+.right{
+    margin-left: 100px;
+    
+}
+
+
+.table {
+    padding-top: 40px;
+    line-height: 50px;
+}
+
+/* th,
+td {
+    display:inline-block;
+
+} */
+
+th {
+    float: left;
+}
+
+.userform {
+    margin-left: -350px;
+} 
+
+
+
+.close{
+ 
+        background: #555;
+        color: #fff;
+        padding:10PX 20px; 
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+        /* height: 45px; */
+}
+    
+ button:hover{
+        opacity: 0.7;
+}
+
+
+/* mobiletitle */
+
+.mobiletitle{
+    margin-top: -60px;
+    background:  white;
+    padding: 7px;
+    text-align: center; 
+    display: none;
+
+}
+.mobiletitle b{
+    font-size: 25px;
+    margin-left: -10px;
+    color: #404040;
+    display: none;
+}
+.mobilerouting {
+    float: left;
+    color: #63b4cf;
+    margin-top: 10px;
+    display: none;
+
+}
+
+/* responsiveness */
+
+@media screen and (max-width:730px) {
+
+
+    .title {
+        display: none;
+    }
+    .title b {
+        display: none;
+    }
+    .mobiletitle {
+        display: block;
+    }
+    .mobiletitle b {
+        display: block;
+    }
+    .mobilerouting {
+        display: block;
+    }
+    .user-details {
+        margin-left: 50px;
+    }
+
+
+    .both {
+        display: block;
+    }
+    .status {
+        margin-left: 280px;
+    }
+    .statusInput {
+        margin-left: 160px;
+    }
+
+    .image {
+        margin-top: 100px;
+        text-align: center;
+    }
+    .left img {
+        border-radius: 2px;
+        height: 400px;
+        width: 280px;
+    }
+    th {
+        margin-left: -60px;
+        margin-right: 100px;
+    }
+    .right {
+        margin-left: 130px;
+    }
+    .close {
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width:700px) {
+
+    .right {
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width:670px) {
+
+    .right {
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:650px) {
+
+    .right {
+        margin-left: 90px;
+    }
+}
+@media screen and (max-width:620px) {
+
+
+    .right {
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width:600px) {
+
+
+    .right {
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width:560px) {
+
+
+     .right {
+        margin-left: 40px;
+    }
+}
+
+
+@media screen and (max-width:520px) {
+
+    .right {
+        margin-left: 20px;
+    }
+} 
