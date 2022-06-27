@@ -1,0 +1,535 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+
+body{
+    /* padding: 0 50px; */
+    color: black;
+    background: #f2f2f2;
+}
+
+.container{
+    padding: 0 20px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+
+/* header{
+    position: fixed;
+    background: #0F4150;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    
+} */
+
+
+
+.errmsg{
+    color: #f2f2f2;
+    width: 20%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #ff4d4d;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.container .title{
+    
+    background:  white;
+    padding: 7px;
+    text-align: center; 
+}
+.title b{
+    font-size: 25px;
+    margin-left: -100px;
+    color: #404040;
+}
+
+.routing {
+    float: left;
+    color: #63b4cf;
+    margin-top: 5px;
+}
+
+
+
+.user-details{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+
+
+
+input[type=text],[type=date]{
+    display: block;
+    width:300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* resize: vertical; */
+}  
+
+input[type=date]{
+    color: "#808080"
+}
+
+
+input[type=file]{
+    display: block;
+    margin-left: -140px;
+   
+}
+
+
+#submit{
+    background: #555;
+    color: #fff;
+    padding:10PX 15px; 
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-left: 300px;
+    /* height: 45px; */
+}
+
+#submit:hover{
+    opacity: 0.7;
+}
+
+.back {
+    background: blue;
+    color: #fff;
+    padding:9PX 22px; 
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-left: 200px
+}
+.back:hover{
+    opacity: 0.5;
+}
+.button {
+    display: inline-flex;
+    margin-top: 90px;
+    margin-left: 130px;
+    margin-bottom: 10px;
+  
+}
+
+.box {
+    margin-bottom: 20px;
+}
+
+
+.input_box_first {
+    display: inline-flex;
+}
+.firstLeft {
+    display: inline-flex;
+}
+
+.inputColumnFirstLeft {
+    margin-left: 300px;
+}
+
+
+
+.input_box_second {
+    display: inline-flex;
+}
+.secondLeft {
+    display: inline-flex;
+}
+
+.inputColumnSecondLeft {
+    margin-left: 250px;
+}
+
+
+
+
+
+.input_box_third {
+    display: inline-flex;
+}
+.thirdLeft {
+    display: inline-flex;
+}
+
+.inputColumnThirdLeft {
+    margin-left: 305px;
+
+}
+
+#inputExpiredData {
+    color: #808080;
+    /* font-size: 12px; */
+}
+
+
+
+.input_box_forth {
+    display: inline-flex;
+}
+.forthLeft {
+    display: inline-flex;
+}
+
+.inputColumnForthLeft {
+    margin-left: 437px;
+}
+
+
+
+.input_box_fifth {
+    display: inline-flex;
+}
+.fifthLeft {
+    display: inline-flex;
+    
+}
+
+.inputColumnFifthLeft {
+    margin-left: 400px;
+    /* display: block;
+    border: 1px solid #ccc;  
+    resize: vertical; */
+    
+}
+#inputImage {
+    background: #63b4cf;
+    color: white;
+    padding: 12px;
+    width:300px;
+    border-radius: 4px;
+}
+
+#preimage {
+    margin-top: 10px;
+
+}
+
+/* mobiletitle */
+
+.mobiletitle{
+    background:  white;
+    padding: 7px;
+    text-align: center; 
+    display: none;
+
+}
+.mobiletitle b{
+    font-size: 25px;
+    margin-left: -10px;
+    color: #404040;
+    display: none;
+}
+.mobilerouting {
+    float: left;
+    color: #63b4cf;
+    margin-top: 10px;
+    display: none;
+
+}
+
+@media screen and (max-width:730px) {
+    .user-details {
+        margin-left: 10px;
+    }
+
+    .title {
+        display: none;
+    }
+    .title b {
+        display: none;
+    }
+    .mobiletitle {
+        display: block;
+    }
+    .mobiletitle b {
+        display: block;
+    }
+    .mobilerouting {
+        display: block;
+    }
+
+}
+
+
+
+/* responsivness */
+
+
+
+@media screen and (max-width:1300px) {
+
+    .button {
+        margin-left: -20px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .user-details {
+        margin-left: 210px;
+    }
+    .button {
+        margin-left: -110px;
+    }
+}
+@media screen and (max-width:1150px) {
+    .user-details {
+        margin-left: 190px;
+    }
+
+    .button {
+        margin-left: -130px;
+    }
+}
+@media screen and (max-width:1100px) {
+    .user-details {
+        margin-left: 190px;
+    }
+    .button {
+        margin-left: -160px;
+    }
+}
+@media screen and (max-width:1064px) {
+    .user-details {
+        margin-left: 160px;
+    }
+    .button {
+        margin-left: -160px;
+    }
+
+
+}
+@media screen and (max-width:1025px) {
+    .user-details {
+        margin-left: 150px;
+    }
+
+    .button {
+        margin-left: -170px;
+    }
+}
+@media screen and (max-width:1000px) {
+
+
+    .button {
+        margin-left: -180px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .user-details {
+        margin-left: 150px;
+    }
+    .button {
+        margin-left: -200px;
+    }
+
+
+}
+@media screen and (max-width:975px) {
+    .user-details {
+        margin-left: 130px;
+    }
+
+
+}
+@media screen and (max-width:950px) {
+    .user-details {
+        margin-left: 120px;
+    }
+    .button {
+        margin-left: -240px;
+    }
+}
+@media screen and (max-width:900px) {
+    .user-details {
+        margin-left: 100px;
+    }
+
+    .button {
+        margin-left: -160px;
+    }
+}
+@media screen and (max-width:860px) {
+    .user-details {
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width:830px) {
+    .user-details {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width:821px) {
+    .user-details {
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width:800px) {
+    .user-details {
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width:769px) {
+    .user-details {
+        margin-left: 110px;
+    }
+
+    .title {
+        display: none;
+    }
+    .title b {
+        display: none;
+    }
+    .mobiletitle {
+        display: block;
+    }
+    .mobiletitle b {
+        display: block;
+    }
+    .mobilerouting {
+        display: block;
+    }
+  
+
+    .inputColumnFirstLeft {
+        margin-left: 113px;
+    }.inputColumnSecondLeft {
+        margin-left: 65px;
+     }.inputColumnThirdLeft {
+        margin-left: 120px;
+    }.inputColumnForthLeft {
+        margin-left: 255px;
+    }
+    .button {
+        margin-left: -250px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .user-details {
+        margin-left: 110px;
+    }
+    .button {
+        margin-left: -250px;
+    }
+}
+@media screen and (max-width:725px) {
+    .user-details {
+        margin-left: 110px;
+    }
+    .button {
+        margin-left: -250px;
+    }
+}
+@media screen and (max-width:700px) {
+    .user-details {
+        margin-left: 100px;
+    }
+    .button {
+        margin-left: -250px;
+    }
+}
+@media screen and (max-width:675px) {
+    .user-details {
+        margin-left: 70px;
+    }
+    .button {
+        margin-left: -250px;
+    }
+}
+@media screen and (max-width:650px) {
+    .user-details {
+        margin-left: 60px;
+    }
+    .button {
+        margin-left: -250px;
+    }
+}
+@media screen and (max-width:625px) {
+    .user-details {
+        margin-left: 50px;
+    }
+    .button {
+        margin-left: -250px;
+    }
+}
+@media screen and (max-width:600px) {
+    .user-details {
+        margin-left: 30px;
+    }
+    .button {
+        margin-left: -250px;
+    }
+}
+@media screen and (max-width:575px) {
+    .user-details {
+        margin-left: 40px;
+    }
+    .button {
+        margin-left: -250px;
+    }
+    .inputColumnFirstLeft {
+        margin-left: 70px;
+    }.inputColumnSecondLeft {
+        margin-left: 20px;
+     }.inputColumnThirdLeft {
+        margin-left: 75px;
+    }.inputColumnForthLeft {
+        margin-left: 208px;
+    }
+}
+@media screen and (max-width:565px) {
+    .user-details {
+        margin-left: 30px;
+    }
+    .button {
+        margin-left: -250px;
+    }
+}
+@media screen and (max-width:555px) {
+    .user-details {
+        margin-left: 25px;
+    }
+    .button {
+        margin-left: -250px;
+    }
+}
+@media screen and (max-width:550px) {
+    .user-details {
+        margin-left: 20px;
+    }
+    .button {
+        margin-left: -250px;
+    }
+}
+@media screen and (max-width:540px) {
+    .user-details {
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:530px) {
+    .user-details {
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:510px) {
+    .user-details {
+        margin-left: 10px;
+    }
+}

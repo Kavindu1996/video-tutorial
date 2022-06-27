@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: #f2f2f2;
+}
+/* .content {
+  transition: all 0.4s ease;
+  width: 97%;
+  margin-top: -207px;
+}
+
+.content.hide {
+  left: 610px;
+} */
+
+.section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: white;
+  transition: all 0.5s ease;
+  border-bottom: 1px solid #cccccc;
+}
+
+  .top_navbar {
+    margin-top: 20px;
+    padding: 0 30px;
+  }
+.left_area {
+  margin-top: 30px;
+ 
+}
+.sidebar .left_area {
+  float: left;
+  color: white;
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+
+.top_navbar .right_area {
+  
+  float: right;
+  text-decoration: none;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  transition-property: background;
+}
+
+.logout_btn {
+  padding: 5px;
+  background: #19B3D3;
+  margin-left: 10px;
+  margin-right: 40px;
+  color: black;
+  transition: 0.5s;
+  border-radius: 4px;
+  border: none;
+}
+
+.logout_btn:hover {
+  background: #0D9DBB;
+}
+
+/* sidebar */
+
+.btn{
+  position: absolute;
+  top: 15px;
+  left: 250px;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+  position: fixed;
+  color: black;
+  font-size: 28px;
+  line-height: 45px;
+  /* transition: left 0.4s ease; */
+}
+span.navbar {
+  color:  #669999;
+  size: 30px;
+}
+
+/* .btn.click span:before{
+  content: '\f00d';
+} */
+.sidebar{
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  left: 0px;
+  background: #1b1b1b;
+  transition: all 0.4s ease;
+}
+.sidebar.hide{
+  left: -250px;
+  
+}
+
+
+/* sidebar color */
+nav ul{
+
+  background:  #131339;
+  padding-top: 120px;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+/* line height between sidebar options */
+nav ul li{
+  line-height: 47px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+nav ul li:last-child{
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+nav ul li a{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 40px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  border-left: 3px solid transparent;
+}
+nav ul li.active a{
+  color: #b3b3e6;
+  background: #19194d;
+  border-left-color: #f2f2f2;
+}
+nav ul li a:hover{
+  background: #19194d;
+}
+nav ul ul{
+  position: static;
+  display: none;
+}
+
+/* submenu */
+nav ul .feat-show.show{
+  display: block;
+  margin-top: -120px;
+  
+}
+
+
+nav ul .serv-show.show1{
+  display: block;
+  margin-top: -120px;
+}
+nav ul ul li{
+  line-height: 42px;
+  border-top: none;
+}
+nav ul ul li a{
+  font-size: 17px;
+  color: #e6e6e6;
+  padding-left: 80px;
+}
+nav ul li.active ul li a{
+  color: #e6e6e6;
+  background:  #131339;
+  border-left-color: transparent;
+
+}
+nav ul ul li a:hover{
+  color: white!important;
+  background: #19194d!important;
+  
+}
+nav ul li a span{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: transform 0.4s;
+}
+nav ul li a span.rotate{
+  transform: translateY(-50%) rotate(-180deg);
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #202020;
+  z-index: -1;
+  text-align: center;
+}
+
+
+/* mobilesidebar */
+
+/* .mobilesidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: 0px;
+    background: #1b1b1b;
+    transition: left 0.4s ease;
+}
+
+.mobilesidebar.hide{
+  left: -250px;
+  
+} */
+.btn2 {
+  display: none;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+  position: fixed;
+  color: black;
+  font-size: 28px;
+  line-height: 45px;
+  transition: left 0.4s ease;
+
+}
+.btn2.click {
+  left: 250px;
+  
+}
+
+.sidebar.show{
+  left: 0px;
+
+}
+
+
+/* responsivenewss */
+
+@media screen and (max-width:1157px) {
+
+  .section {
+    left: 0px;
+    width: 100%;
+    transition: 0ms;
+  }
+  .sidebar {
+    display: block;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: -250px;
+    background: #1b1b1b;
+    transition: all 0.4s ease;
+  }
+
+  .btn{
+    display: none;
+  }
+  .btn2{
+    display: block;
+  }
+}
+

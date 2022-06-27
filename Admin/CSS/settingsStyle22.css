@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+
+body{
+    /* padding: 0 50px; */
+    background: #f2f2f2;
+}
+
+.title{
+    margin-top: -60px;
+    background:  white;
+    padding: 7px;
+    text-align: center; 
+}
+.title b{
+    font-size: 25px;
+    margin-left: -100px;
+    color: #404040;
+}
+.routing {
+    float: left;
+    color: #63b4cf;
+    margin-top: 5px;
+}
+.sub-section {
+    position: fixed;
+    margin-top: 80px;
+    margin-left: 200px;
+    width: 100%;
+    height: 130px;
+    transition: all 0.5s ease;
+  }
+  
+.headding {
+      margin-left: 20px;
+}
+/* errormessages */
+.errmsg{
+    color: #f2f2f2;
+    width: 20%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #ff4d4d;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.container {
+    padding: 0 20px;
+    margin-left: 10px;
+    margin-top: 160px;
+}
+
+
+.user-details{
+    margin-top: 150px;
+    margin-left: 280px;
+}
+
+
+input[type=text],[type=email],[type=date]{
+    display: block;
+    width:300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* resize: vertical; */
+    color: "#808080"
+}  
+
+.box {
+    margin-bottom: 30px;
+}
+/*first raw*/
+.input_box_first {
+    display: inline-flex;
+}
+.firstLeft {
+    display: inline-flex;
+}
+.firstRight {
+    display: inline-flex;
+}
+.firstRight {
+    margin-left: 50px;
+}
+.inputColumnFirstLeft {
+    margin-left: 100px;
+}
+
+.inputColumnFirstRight {
+    margin-left: 100px;
+}
+
+
+
+.input_box_second {
+    display: inline-flex;
+}
+.secondLeft {
+    display: inline-flex;
+}
+.secondRight {
+    display: inline-flex;
+}
+.secondRight {
+    margin-left: 50px;
+}
+.inputColumnSecondLeft {
+    margin-left: 130px;
+}
+
+.inputColumnSecondRight {
+    margin-left: 167px;
+}
+
+
+
+.input_box_third {
+    display: inline-flex;
+}
+.thirdRight {
+    display: inline-flex;
+}
+.thirdRight {
+    margin-left: 515px;  
+}
+.labelColumnThirdRight {
+    margin-left: 23px;
+}
+.inputColumnThirdRight {
+    margin-left: 160px;
+}
+
+
+
+.button {
+    display: inline-flex;
+    margin-top: 110px;
+    margin-left: 00px;
+    margin-bottom: 10px;
+}
+
+#submit{
+    background: #555;
+    color: #fff;
+    padding:10PX 15px; 
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-left: 300px;
+    /* height: 45px; */
+}
+
+#submit:hover{
+    opacity: 0.7;
+}
+
+.back {
+    background: blue;
+    color: #fff;
+    padding:9PX 22px; 
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-left: 200px
+}
+.back:hover{
+    opacity: 0.5;
+}
+
+/* mobiletitle */
+
+.mobiletitle{
+    margin-top: -60px;
+    background:  white;
+    padding: 7px;
+    text-align: center; 
+    display: none;
+
+}
+.mobiletitle b{
+    font-size: 25px;
+    margin-left: -10px;
+    color: #404040;
+    display: none;
+}
+.mobilerouting {
+    float: left;
+    color: #63b4cf;
+    margin-top: 10px;
+    display: none;
+
+}
+
+/* responsivness */
+
+
+@media screen and (max-width:1500px) {
+
+    .user-details {
+        margin-left: 175px;
+    }
+}
+@media screen and (max-width:1426px) {
+    .user-details {
+        margin-left: 160px;
+    }
+}
+    @media screen and (max-width:1400px) {
+
+    .user-details {
+        margin-left: 140px;
+    }
+}
+@media screen and (max-width:1360px) {
+    .user-details {
+        margin-left: 190px;
+    }
+
+    .inputColumnFirstLeft {
+        margin-left: 30px;
+    }.inputColumnSecondLeft {
+        margin-left: 59px;
+     }.inputColumnThirdLeft {
+        margin-left: 118px;
+    }
+
+    .inputColumnFirstRight {
+        margin-left: 30px;
+    }.inputColumnSecondRight {
+        margin-left: 98px;
+    }.inputColumnThirdRight {
+        margin-left: 89px;
+    }
+
+    .thirdRight {
+        margin-left: 450px;
+    }
+    .button {
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width:1300px) {
+    .user-details {
+        margin-left: 150px;
+    }
+
+}
+@media screen and (max-width:1281px) {
+    .user-details {
+        margin-left: 140px;
+    }
+
+}
+@media screen and (max-width:1250px) {
+    .user-details {
+        margin-left: 110px;
+    }
+
+}
+@media screen and (max-width:1200px) {
+    .user-details {
+        margin-left: 90px;
+    }
+}
+@media screen and (max-width:1150px) {
+    .user-details {
+        margin-left: 70px;
+    }
+
+}
+@media screen and (max-width:1100px) {
+    .user-details {
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:1064px) {
+    .user-details {
+        margin-left: 40px;
+    }
+
+    .inputColumnFirstLeft {
+        margin-left: 30px;
+    }.inputColumnSecondLeft {
+        margin-left: 59px;
+     }
+
+    .inputColumnFirstRight {
+        margin-left: 30px;
+    }.inputColumnSecondRight {
+        margin-left: 98px;
+    }.inputColumnThirdRight {
+        margin-left: 89px;
+    }
+    .labelColumnFourthRight {
+        margin-left: -45px;
+    }.inputColumnFourthRight {
+        margin-left: 67px;
+    }
+    .button {
+        margin-left: -10px;
+    }
+}
+@media screen and (max-width:1025px) {
+    .user-details {
+        margin-left: 25px;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    .user-details {
+        margin-left: 150px;
+    }
+    .input_box_first {
+        display: block;
+    }
+    .firstRight {
+        margin-left: 0px;
+    }
+    .inputColumnFirstLeft {
+        margin-bottom: 20px;
+        margin-left: 120px;
+    }
+    .inputColumnFirstRight{
+        margin-left: 100px;
+    }
+
+
+    .input_box_second{
+        display: block;
+    }
+    .secondRight {
+        margin-left: 0px;
+    }
+    .inputColumnSecondLeft {
+        margin-bottom: 20px;
+    }
+    .inputColumnSecondLeft{
+        margin-left: 149px;
+    }
+    .inputColumnSecondRight{
+        margin-left: 168px;
+    }
+
+
+    .input_box_third{
+        display: block;
+    }
+    .thirdRight {
+        margin-left: -22px;
+    }
+    .inputColumnThirdLeft {
+        margin-bottom: 20px;
+        margin-left: 208px;
+    }
+    .inputColumnThirdRight {
+        margin-left: 160px;
+    }
+
+
+    .input_box_forth{
+        display: block;
+    }
+    .forthRight {
+        margin-left: -105px;
+    }
+    .labelColumnFourthRight {
+        margin-left: -515px;
+    }
+    
+    .inputColumnFourthRight {
+        margin-left: 135px;
+    }
+    
+
+   
+
+    .box {
+        line-height: 30px;
+    }
+
+    .button {
+        margin-left: -160px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .user-details {
+        margin-left: 150px;
+    }
+
+}
+@media screen and (max-width:800px) {
+    .user-details {
+        margin-left: 110px;
+    }
+
+}
+@media screen and (max-width:821px) {
+    .user-details {
+        margin-left: 110px;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    .user-details {
+        margin-left: 80px;
+    }
+
+}
+@media screen and (max-width:700px) {
+    .user-details {
+        margin-left: 55px;
+    }
+
+}
+@media screen and (max-width:675px) {
+    .user-details {
+        margin-left: 34px;
+    }
+
+}
+@media screen and (max-width:650px) {
+
+    .title {
+        display: none;
+    }
+    .title b {
+        display: none;
+    }
+    .mobiletitle {
+        display: block;
+    }
+    .mobiletitle b {
+        display: block;
+    }
+    .mobilerouting {
+        display: block;
+    }
+    .user-details {
+        margin-left: 70px;
+    }
+
+    .inputColumnFirstLeft {
+        margin-left: 34px;
+    }.inputColumnSecondLeft {
+        margin-left: 63px;
+     }
+     .inputColumnThirdLeft {
+        margin-left: 123px;
+     }
+
+    .inputColumnFirstRight {
+        margin-left: 15px;
+    }.inputColumnSecondRight {
+        margin-left: 81px;
+    }.inputColumnThirdRight {
+        margin-left: 75px;
+    }
+    .inputColumnFourthRight {
+        margin-left: 50px;
+    }
+    .button {
+        margin-left: -240px;
+    }
+
+
+}
+
+@media screen and (max-width:575px) {
+    .user-details {
+        margin-left: 30px;
+    }
+
+}
+@media screen and (max-width:520px) {
+    .user-details {
+        margin-left: 10px;
+    }
+ 
+}

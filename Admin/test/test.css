@@ -1,0 +1,7 @@
+body { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; } 
+ul.tablinks { list-style: none; margin: 10px 0 0 10px; padding: 0; display: inline-block; }
+ul.tablinks li { display: inline; padding: 10px 20px; background: #eee; font-weight: bold; box-shadow: 2px 0 2px #aaa }
+ul.tablinks li.active { color: white; background: #000; }
+.hide { display: none; }
+.show { display: block; }
+.tabcontainer { margin: 10px; border: 3px solid black; padding: 0 10px;}

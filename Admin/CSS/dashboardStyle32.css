@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0 50px;
+    background: #f2f2f2;
+
+}
+
+.container{
+    margin-left: 225px;
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+  /* headding */
+.sub-section {
+    top: 80px;
+    margin-right: 130px;
+    width: 100%;
+    height: 130px;
+    background: #f2f2f2;
+  }
+  .headding {
+    margin-left: 20px;
+  }
+
+
+
+
+/* Boxes*/
+
+
+.DetailsBoxes {
+    display: flex;
+}
+
+/* Box1 */
+.Box1{
+    height: 100px;
+    width: 20%;
+    border-radius: 5px;
+    margin-left: 60px;
+    cursor: pointer;
+    display: flex;
+    color: #4d79ff;
+}
+.Box1:hover{
+    background-color: white;
+}
+.Box1 .addUser{
+    color: black;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+.addUser a {
+    text-decoration: none;
+
+}
+.Box1 .Box1_1{
+    height: 100px;
+    width: 3%;
+    background-color: #4d79ff;
+}
+
+/* Box2 */
+.Box2{
+    height: 100px;
+    width: 20%;
+    border-radius: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: flex;
+    color: #4dffdb;
+}
+.Box2:hover{
+    background-color: white;
+
+}
+.Box2 .addNotice{
+    color: black;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.addNotice a{
+    text-decoration: none;
+}
+.Box2_1{
+    height: 100px;
+    width: 3%;
+    background-color: #4dffdb;
+}
+
+/* Box3 */
+.Box3{
+    box-sizing: border-box;
+    height: 100px;
+    width: 20%;
+    border-radius: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: flex;
+    color: #ff8566;
+}
+.Box3:hover{
+    background-color: white;
+}
+.Box3 .cashierPanel{
+    color: black;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 70px;
+    box-sizing: border-box;
+}
+.cashierPanel a {
+    text-decoration: none;
+}
+.Box3_1{
+    height: 100px;
+    width: 3%;
+    background-color: #ff8566;
+}
+
+/* Box4 */
+.Box4{
+    box-sizing: border-box;
+    height: 100px;
+    width: 20%;
+    border-radius: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: flex;
+    color: #aaaa55;
+}
+.Box4:hover{
+    background-color: white;
+}
+.Box4 .staffPanel{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 70px;
+    box-sizing: border-box;
+}
+.staffPanel a {
+    text-decoration: none;
+}
+.Box4_1{
+    height: 100px;
+    width: 3%;
+    background-color: #aaaa55;
+}
+
+
+/* graph*/
+.chart{
+    margin-top: 50px;
+    margin-left: 33%;
+    width: 50%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+
+.button_Next_Text {
+    color: #808080;
+    display: inline-flex;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+
+/* responsive-boxes */
+.responsiveDetailsBoxes {
+    display: none;
+}
+
+.firstrow {
+    display: flex;
+}
+
+
+/* box1 */
+.responsiveDetailsBoxes .Box1{
+    height: 100px;
+    width: 40%;
+    border-radius: 5px;
+    margin-left: 60px;
+    cursor: pointer;
+    display: flex;
+    color: #4d79ff;
+}
+.responsiveDetailsBoxes .Box1:hover{
+    background-color: white;
+}
+.responsiveDetailsBoxes .addUser{
+    color: black;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 75px;
+
+}
+.responsiveDetailsBoxes .Box1_1{
+    height: 100px;
+    width: 3%;
+    background-color: #4d79ff;
+}
+
+/* box2 */
+.responsiveDetailsBoxes .Box2{
+    height: 100px;
+    width: 40%;
+    border-radius: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: flex;
+    color: #4dffdb;
+}
+.responsiveDetailsBoxes .Box2:hover{
+    background-color: white;
+}
+.responsiveDetailsBoxes .addNotice{
+    color: black;
+    font-size: 20px;
+}
+.responsiveDetailsBoxes .Box2_1{
+    height: 100px;
+    width: 3%;
+    background-color: #4dffdb;
+}
+
+
+
+.secondrow{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+/* box3 */
+.responsiveDetailsBoxes .Box3{
+    box-sizing: border-box;
+    height: 100px;
+    width: 41%;
+    border-radius: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: flex;
+    color: #ff8566;
+}
+.responsiveDetailsBoxes .Box3:hover{
+    background-color: white;
+}
+.responsiveDetailsBoxes .cashierPanel{
+    color: black;
+    font-size: 20px;
+}
+
+.responsiveDetailsBoxes .Box3_1{
+    height: 100px;
+    width: 3%;
+}
+
+/* box4 */
+.responsiveDetailsBoxes .Box4{
+    height: 100px;
+    width: 41%;
+    border-radius: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: flex;
+    color: #aaaa55;
+}
+.responsiveDetailsBoxes .Box4:hover{
+    background-color: white;
+}
+.responsiveDetailsBoxes .staffPanel{
+    color: black;
+    font-size: 20px;
+}
+.responsiveDetailsBoxes .Box4_1{
+    height: 100px;
+    width: 3%;
+}
+
+
+/* responsiveness */
+@media screen and (max-width:1157px) {
+    .container {
+        margin-left: 15px;
+        padding-top: 80px;
+        margin-bottom: 30px;
+        transition: all 0.4s ease;
+        
+        
+    }
+    .chart{
+        margin-top: 50px;
+        margin-left: 15%;
+        width: 70%;
+        background-color: white;
+        border-radius: 2px;
+        transition: all 0.4s ease;
+        margin-bottom: 10px;
+    }
+    .DetailsBoxes {
+        display: none;
+    }
+
+    .responsiveDetailsBoxes {
+        display: block;
+    }
+    
+}
+@media screen and (max-width:900px) {
+ 
+    .responsiveDetailsBoxes {
+        margin-left: -25px;
+    }
+}
+@media screen and (max-width:870px) {
+
+    .responsiveDetailsBoxes {
+        margin-left: -25px;
+    }
+}
+@media screen and (max-width:840px) {
+  
+    .responsiveDetailsBoxes {
+        margin-left: -30px;
+    }
+    
+}
+@media screen and (max-width:800px) {
+
+    .responsiveDetailsBoxes {
+        margin-left: -30px;
+    }
+}
+
+
+@media screen and (max-width:789px) {
+
+    .responsiveDetailsBoxes {
+        margin-left: -30px;
+    }
+    
+}
+
+@media screen and (max-width:760px) {
+  
+
+    .responsiveDetailsBoxes {
+        margin-left: -35px;
+    }
+    
+}
+
+@media screen and (max-width:750px) {
+ 
+    .responsiveDetailsBoxes {
+        margin-left: -40px;
+    }
+}
+@media screen and (max-width:725px) {
+
+    .responsiveDetailsBoxes {
+        margin-left: -40px;
+    }
+
+}
+@media screen and (max-width:700px) {
+
+    .responsiveDetailsBoxes {
+        margin-left: -50px;
+    }
+    
+}
+@media screen and (max-width:650px) {
+
+    .responsiveDetailsBoxes {
+        margin-left: -60px;
+    }
+}
+@media screen and (max-width:600px) {
+
+    .responsiveDetailsBoxes {
+        margin-left: -60px;
+    }
+    .addUser {
+        margin-right: 20px;
+    }
+
+}
